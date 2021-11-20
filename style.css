@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Sarabun:wght@400;600&display=swap');
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+    background-size: cover;
+    font-family: Outfit, sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+
+.message{
+    text-align: center;
+    font-size: 1.5em;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+
+.gamearea{
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 150px 150px 150px 150px;
+  justify-content: center;
+}
+
+.box{
+    background: whitesmoke;
+    border: 1px solid plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+
+.box > img{
+     width: 60%; 
+     opacity: 0.4;
+}
+
+button{
+    margin-left: 48%;
+    width: 100px;
+    height: 35px;
+    box-shadow: 0 10px 20px 3px rgba(83, 79, 79, 0.3);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color:rgb(131, 87, 5);
+}
+
+h5{
+    text-align: center;
+
+}
